@@ -33,8 +33,19 @@ body {
   display: flex;
 }
 .buttons {
-  color: blue;
-  border: none;
-  background-color: rgb(238, 151, 53);
+  color: black;
+  border: black 10px solid;
+  background-color: darkolivegreen;
   margin: 10px;
+  font-size: 20px;
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+
+.buttons:hover {
+  background-color: white;
+}
+
+.buttons:active {
+  background-color: darkolivegreen;
 }
