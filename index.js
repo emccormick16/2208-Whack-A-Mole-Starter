@@ -6,7 +6,7 @@ function showMole() {
   holes[randomNum].classList.toggle("mole");
 }
 
-setInterval(showMole, 100);
+setInterval(showMole, 1000);
 
 let whackamole = document.getElementById("whack-a-mole");
 
@@ -17,6 +17,7 @@ function updateScore() {
 
 whackamole.addEventListener("click", (clickEvent) => {
   if (clickEvent.target.matches(".mole")) {
+    clickEvent.target.classList.remove("mole");
     score++;
     updateScore();
   }

@@ -1,4 +1,3 @@
-
 body {
   display: flex;
   flex-direction: column;
@@ -6,7 +5,7 @@ body {
   align-items: center;
   width: 100vw;
   height: 100vh;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 #whack-a-mole {
@@ -28,4 +27,14 @@ body {
 
 .mole {
   background-image: url("images/mole.png");
+}
+
+.difficulty {
+  display: flex;
+}
+.buttons {
+  color: blue;
+  border: none;
+  background-color: rgb(238, 151, 53);
+  margin: 10px;
 }
